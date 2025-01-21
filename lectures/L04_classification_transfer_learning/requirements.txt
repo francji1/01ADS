@@ -1,0 +1,12 @@
+cufflinks
+jupyter
+matplotlib
+pandas
+pandas-profiling
+plotly
+scikit-learn
+scipy
+seaborn
+keras
+tensorflow
+statsmodels
