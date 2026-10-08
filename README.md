@@ -31,8 +31,21 @@ By the end of this course, students will:
 - Basic programming knowledge (Python).  
 - Familiarity with mathematical and statistical concepts.  
 
+## Lectures 2026/27
+
+| # | Topic | Materials |
+|---|---|---|
+| 1 | Introduction to 01ADS | [L01_intro](lectures/L01_intro/) |
+| 2 | Git & Python environments (uv) | [L02_git_venv](lectures/L02_git_venv/) |
+| 3 | Regression on tabular data: workflow, validation, decision trees and ensembles | [L03_decision_trees](lectures/L03_decision_trees/) |
+
+Materials from previous years are kept in the lecture folders and in the git history.
+
 ## How to Use This Repository
 
 1. Clone the repository to your local machine:  
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/francji1/01ADS.git
+   ```
+2. Or open a notebook directly in Google Colab using the "Open in Colab" badge at its top.
+
