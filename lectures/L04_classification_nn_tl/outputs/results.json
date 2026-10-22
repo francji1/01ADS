@@ -1,0 +1,42 @@
+[
+ {
+  "model": "SimpleCNN from scratch",
+  "trainable params": 544129,
+  "epochs": 15,
+  "best epoch": 13,
+  "train time [s] (cuda)": 26.5,
+  "val accuracy": 0.756,
+  "test accuracy": 0.733,
+  "test ROC-AUC": 0.82
+ },
+ {
+  "model": "(a) ResNet18 frozen + head",
+  "trainable params": 513,
+  "epochs": 3,
+  "best epoch": 3,
+  "train time [s] (cuda)": 20.0,
+  "val accuracy": 0.866,
+  "test accuracy": 0.852,
+  "test ROC-AUC": 0.932
+ },
+ {
+  "model": "(b) ResNet18 layer4 + head",
+  "trainable params": 8394241,
+  "epochs": 3,
+  "best epoch": 2,
+  "train time [s] (cuda)": 19.8,
+  "val accuracy": 0.92,
+  "test accuracy": 0.897,
+  "test ROC-AUC": 0.962
+ },
+ {
+  "model": "(c) ResNet18 full fine-tuning",
+  "trainable params": 11177025,
+  "epochs": 3,
+  "best epoch": 3,
+  "train time [s] (cuda)": 23.8,
+  "val accuracy": 0.92,
+  "test accuracy": 0.912,
+  "test ROC-AUC": 0.966
+ }
+]

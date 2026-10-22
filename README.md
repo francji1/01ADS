@@ -23,6 +23,7 @@ with a semester-long team project.
 | 1 | Introduction to 01ADS | [L01_intro](lectures/L01_intro/) |
 | 2 | Git & Python environments (uv) | [L02_git_venv](lectures/L02_git_venv/) |
 | 3 | Regression on tabular data: workflow, validation, decision trees and ensembles | [L03_decision_trees](lectures/L03_decision_trees/) |
+| 4 | Classification: metrics, thresholds, calibration, tabular models; image classification and transfer learning with PyTorch | [L04_classification_nn_tl](lectures/L04_classification_nn_tl/) |
 
 ## How to run the notebooks
 

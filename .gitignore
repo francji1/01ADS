@@ -26,3 +26,7 @@ lightning_logs/
 
 # catch-all: any hidden directory
 .*/
+
+# datasets downloaded by torchvision
+cifar-10-batches-py/
+cifar-10-python.tar.gz
