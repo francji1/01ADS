@@ -1,12 +1,13 @@
 # Lecture 04: Classification and transfer learning
 
 Two notebooks. The first covers classification on tabular data: the confusion matrix and its vocabulary, thresholds
-and misclassification costs (with sliders), ROC and precision–recall curves, calibration, and a comparison of logistic
-regression, decision tree, random forest, XGBoost and a PyTorch MLP on the IBM HR attrition data, plus a multiclass
-example on handwritten digits. The second moves to images: what a convolution computes, a convolutional network from
-scratch on CIFAR-10 cats vs. dogs, what a pretrained ResNet18 already knows, transfer learning (feature extraction,
-partial and full fine-tuning), embeddings and nearest neighbours, feature maps, Grad-CAM, occlusion maps and a cell
-for your own photos.
+and misclassification costs (with sliders), ROC (with an animated construction of the curve) and precision–recall
+curves, calibration, a comparison of logistic regression, decision tree, random forest, XGBoost and a PyTorch MLP on
+the IBM HR attrition data, coefficients and SHAP values, plus a multiclass example on handwritten digits. The second
+moves to images: what a convolution computes (with an animated sliding window), a convolutional network from scratch
+on CIFAR-10 cats vs. dogs, what a pretrained ResNet18 already knows, transfer learning (feature extraction, partial
+and full fine-tuning) and how much data it saves, embeddings with nearest neighbours and a t-SNE map of the images,
+feature maps, Grad-CAM, occlusion maps and a cell for your own photos.
 
 **Notebook 1 (2026/27):** [01ADS_L04_Classification.ipynb](01ADS_L04_Classification.ipynb)
 <a href="https://colab.research.google.com/github/francji1/01ADS/blob/main/lectures/L04_classification_nn_tl/01ADS_L04_Classification.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>

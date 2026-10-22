@@ -1,0 +1,74 @@
+[
+ {
+  "recipe": "SimpleCNN from scratch",
+  "images per class": 50,
+  "test accuracy": 0.505,
+  "train time [s]": 4.0289037227630615
+ },
+ {
+  "recipe": "ResNet18 frozen + head",
+  "images per class": 50,
+  "test accuracy": 0.705,
+  "train time [s]": 4.55237889289856
+ },
+ {
+  "recipe": "ResNet18 full fine-tuning",
+  "images per class": 50,
+  "test accuracy": 0.7745,
+  "train time [s]": 4.482327461242676
+ },
+ {
+  "recipe": "SimpleCNN from scratch",
+  "images per class": 200,
+  "test accuracy": 0.6165,
+  "train time [s]": 5.301066160202026
+ },
+ {
+  "recipe": "ResNet18 frozen + head",
+  "images per class": 200,
+  "test accuracy": 0.791,
+  "train time [s]": 5.855368614196777
+ },
+ {
+  "recipe": "ResNet18 full fine-tuning",
+  "images per class": 200,
+  "test accuracy": 0.8115,
+  "train time [s]": 5.925775527954102
+ },
+ {
+  "recipe": "SimpleCNN from scratch",
+  "images per class": 500,
+  "test accuracy": 0.6655,
+  "train time [s]": 9.029009580612183
+ },
+ {
+  "recipe": "ResNet18 frozen + head",
+  "images per class": 500,
+  "test accuracy": 0.8225,
+  "train time [s]": 8.973522424697876
+ },
+ {
+  "recipe": "ResNet18 full fine-tuning",
+  "images per class": 500,
+  "test accuracy": 0.8585,
+  "train time [s]": 9.090877532958984
+ },
+ {
+  "recipe": "SimpleCNN from scratch",
+  "images per class": 2000,
+  "test accuracy": 0.7315,
+  "train time [s]": 28.088063716888428
+ },
+ {
+  "recipe": "ResNet18 frozen + head",
+  "images per class": 2000,
+  "test accuracy": 0.855,
+  "train time [s]": 21.744404315948486
+ },
+ {
+  "recipe": "ResNet18 full fine-tuning",
+  "images per class": 2000,
+  "test accuracy": 0.8825,
+  "train time [s]": 25.00120973587036
+ }
+]
