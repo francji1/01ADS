@@ -1,6 +1,7 @@
 # Lecture 01: Introduction to 01ADS
 
-**Slides (2026/27):** [01ADS – Intro lecture](https://docs.google.com/presentation/d/12cGh6bTDc0oCo0veO3e8q6KKIG8MlbPd81m-dw1bGA4/edit?usp=sharing)
+**Slides (2026/27):** [01ADS_L01.pdf](01ADS_L01.pdf)
+(original in [Google Slides](https://docs.google.com/presentation/d/12cGh6bTDc0oCo0veO3e8q6KKIG8MlbPd81m-dw1bGA4/edit?usp=sharing))
 
 ## Materials from previous years
 

@@ -1,35 +1,20 @@
 # Application of Data Science (01ADS)
 
-Welcome to the repository for the **01ADS - Application of Data Science** course. This repository contains all the materials needed to follow along with the course, including lectures, slides, and Jupyter notebooks.
+Materials for the course **01ADS - Application of Data Science** at FJFI CTU in Prague, winter semester 2026/27.
+Lecturer: Jiri Franc.
 
-## Repository Structure
+The course combines lectures on applied machine learning, deep learning and large language models
+with a semester-long team project.
 
-The repository is organized as follows:
+## Repository structure
 
-- **`lectures/`**  
-  Contains the lecture notes, slides, jupyer notebooks and additional reading materials. Each lecture is stored in its own subfolder, named according to the lecture number and topic.
-  
-## Course Overview
-
-The **Application of Data Science** course covers key topics in data science, including:
-
-1. Data preprocessing and cleaning, exploratory data analysis
-2. Project management and working in teams
-3. Machine learning basics and advanced techniques  
-4. Real-world applications of data science  
-
-### Learning Outcomes
-
-By the end of this course, students will:
-
-- Gain a strong understanding of data science workflows and methodologies.  
-- Develop skills in using Python. 
-- Be able to apply data science techniques to solve real-world problems and work in team.
-
-## Prerequisites
-
-- Basic programming knowledge (Python).  
-- Familiarity with mathematical and statistical concepts.  
+- **`lectures/`**
+  One folder per lecture, named `LNN_topic/`, added as the semester progresses. Each folder contains
+  - `README.md` with the links to all materials of the lecture,
+  - the slides as `01ADS_LNN.pdf` (the original lives in Google Slides and is linked from the README) and/or
+  - a Jupyter notebook `01ADS_LNN_Topic.ipynb` with an "Open in Colab" badge at its top,
+  - optionally `data/`, `pics/` and helper scripts used by the notebook,
+  - optionally `supplementary/` with additional material from previous years.
 
 ## Lectures 2026/27
 
@@ -39,13 +24,39 @@ By the end of this course, students will:
 | 2 | Git & Python environments (uv) | [L02_git_venv](lectures/L02_git_venv/) |
 | 3 | Regression on tabular data: workflow, validation, decision trees and ensembles | [L03_decision_trees](lectures/L03_decision_trees/) |
 
-Materials from previous years are kept in the lecture folders and in the git history.
+## How to run the notebooks
 
-## How to Use This Repository
+- Open a notebook in Google Colab via the badge at its top (recommended), or
+- clone the repository and run it locally:
 
-1. Clone the repository to your local machine:  
-   ```bash
-   git clone https://github.com/francji1/01ADS.git
-   ```
-2. Or open a notebook directly in Google Colab using the "Open in Colab" badge at its top.
+  ```bash
+  git clone https://github.com/francji1/01ADS.git
+  ```
 
+  with Python 3.11+ and the packages used by the given notebook (numpy, pandas, scikit-learn,
+  matplotlib, seaborn and the libraries of the lecture, e.g. xgboost, lightgbm, catboost, torch).
+
+## Course overview
+
+The course covers key topics of applied data science:
+
+1. Data preprocessing and cleaning, exploratory data analysis
+2. Project management and working in teams
+3. Machine learning basics and advanced techniques
+4. Real-world applications of data science
+
+### Learning outcomes
+
+By the end of this course, students will:
+
+- gain a strong understanding of data science workflows and methodologies,
+- develop skills in using Python,
+- be able to apply data science techniques to solve real-world problems and work in a team.
+
+### Prerequisites
+
+- Basic programming knowledge (Python).
+- Familiarity with mathematical and statistical concepts.
+
+Materials from previous years are available in the git history
+(last state before the 2026 cleanup: [`3ecb99a`](https://github.com/francji1/01ADS/tree/3ecb99a)).
