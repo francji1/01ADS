@@ -14,7 +14,7 @@ feature maps, Grad-CAM, occlusion maps and a cell for your own photos.
 
 **Notebook 2 (2026/27):** [01ADS_L04_Transfer_Learning.ipynb](01ADS_L04_Transfer_Learning.ipynb)
 <a href="https://colab.research.google.com/github/francji1/01ADS/blob/main/lectures/L04_classification_nn_tl/01ADS_L04_Transfer_Learning.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-In Colab choose *Runtime → Change runtime type → T4 GPU* to train the networks live (about 6 minutes). Without a GPU the
+In Colab choose *Runtime → Change runtime type → T4 GPU* to train the networks live (about 6–8 minutes). Without a GPU the
 notebook downloads the checkpoints from this folder and only evaluates them.
 
 ## Files
