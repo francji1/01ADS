@@ -1,0 +1,4 @@
+{
+ "frozen batch-norm in eval() (correct)": 0.833,
+ "frozen batch-norm in train() (wrong)": 0.788
+}
