@@ -24,6 +24,7 @@ with a semester-long team project.
 | 2 | Git & Python environments (uv) | [L02_git_venv](lectures/L02_git_venv/) |
 | 3 | Regression on tabular data: workflow, validation, decision trees and ensembles | [L03_decision_trees](lectures/L03_decision_trees/) |
 | 4 | Classification: metrics, thresholds, calibration, tabular models; image classification and transfer learning with PyTorch | [L04_classification_nn_tl](lectures/L04_classification_nn_tl/) |
+| 5 | Embeddings from images to text: CLIP and zero-shot classification, sentence embeddings, semantic search, multilingual models | [L05_embeddings](lectures/L05_embeddings/) |
 
 ## How to run the notebooks
 
@@ -35,7 +36,8 @@ with a semester-long team project.
   ```
 
   with Python 3.11+ and the packages used by the given notebook (numpy, pandas, scikit-learn,
-  matplotlib, seaborn and the libraries of the lecture, e.g. xgboost, lightgbm, catboost, torch).
+  matplotlib, seaborn and the libraries of the lecture, e.g. xgboost, lightgbm, catboost, torch,
+  transformers, sentence-transformers).
 
 ## Course overview
 
