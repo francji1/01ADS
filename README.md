@@ -25,6 +25,7 @@ with a semester-long team project.
 | 3 | Regression on tabular data: workflow, validation, decision trees and ensembles | [L03_decision_trees](lectures/L03_decision_trees/) |
 | 4 | Classification: metrics, thresholds, calibration, tabular models; image classification and transfer learning with PyTorch | [L04_classification_nn_tl](lectures/L04_classification_nn_tl/) |
 | 5 | Embeddings from images to text: CLIP and zero-shot classification, sentence embeddings, semantic search, multilingual models | [L05_embeddings](lectures/L05_embeddings/) |
+| 6 | Word2vec from scratch and an introduction to transformers: tokenisation, attention, encoder vs. decoder, history, benchmarks vs. humans, state of the art | [L06_word2vec_transformers](lectures/L06_word2vec_transformers/) |
 
 ## How to run the notebooks
 
