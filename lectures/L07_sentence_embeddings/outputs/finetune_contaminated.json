@@ -1,0 +1,1 @@
+{"retrieval": {"retriever": "raw MiniLM trained on the 1 275 test pairs only", "recall@1": 0.8741833333333334, "recall@5": 0.9971500000000001, "recall@10": 0.9987999999999999, "recall@100": 1.0, "hit@1": 0.977, "MRR@10": 0.9863, "STS-B Spearman x 100": 68.6}, "n_leak": 1275, "train_time": 4.282442808151245}
